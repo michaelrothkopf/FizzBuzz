@@ -39,4 +39,4 @@ else {
 	System.out.println(i); // Prints to console
 }
 
-This is licensed under the MIT License. You are free to use it for any purpose.
+This is licensed under the MIT License. See the license file.
