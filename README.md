@@ -21,7 +21,7 @@ For each number between one and one hundred:
 
 is equivalent to
 
-for(int i = 0; i <= 100, i++);
+	for(int i = 0; i <= 100, i++);
 
 
 if the number is a multiple of 3
@@ -36,27 +36,27 @@ For example, 10 % 3 would return 1 because the remainder when you divide 10 / 3 
 
 In this case, we use
 
-if (i % 3 == 0) {
+	if (i % 3 == 0) {
 
-	System.out.println("Fizz"); // Prints to console
+		System.out.println("Fizz"); // Prints to console
 	
-}
+	}
 
 It is the same for 5, except we print Buzz and do i % 5.
 
-if (i % 5 == 0) {
+	if (i % 5 == 0) {
 
-	System.out.println("Buzz"); // Prints to console
+		System.out.println("Buzz"); // Prints to console
 	
-}
+	}
 
 And if it's neither, it prints out i.
 
-else {
+	else {
 
-	System.out.println(i); // Prints to console
+		System.out.println(i); // Prints to console
 	
-}
+	}
 
 
 
